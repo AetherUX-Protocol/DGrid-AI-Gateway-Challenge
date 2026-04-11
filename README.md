@@ -1,3 +1,7 @@
+![DGrid-AI-Gateway-Challenge](https://github.com/user-attachments/assets/f5a4db36-0360-4cbd-9296-e6bb07cc2922)
+
+
+
 # 🌐 DGrid AI Gateway Challenge
 **Description:** Leaderless P2P AI Gateway
 
