@@ -41,6 +41,26 @@ To verify **Bounty #1338 (Stateful Handshake)** and **Bounty #1337 (Leaderless C
 1. **Initialize Swarm:** Launch two instances of `aether_agent.py` from the `/agents` folder.
 2. **Verify Handshake:** Observe the logs for "Handshake Successful" and "State Synchronized."
 3. **Simulate Blackout:** Force-close one agent; observe the second agent maintaining IOU ledger integrity via the Mesh Arbiter.
+  🛠️ Quick Start
+1. Prerequisite: DGrid API Key
+Before running the gateway, ensure you have a valid DGrid API key.
+
+Generate one at the DGrid Console.
+
+Ensure your Web3 wallet is connected for authentication.
+
+2. Environment Setup
+Copy the example environment file:
+ cp .env.example .env
+Open .env and paste your DGRID_API_KEY.
+
+3. Launch the Gateway
+   # Install dependencies
+npm install
+
+# Start the AI Gateway
+npm start
+
 
 ---
 
